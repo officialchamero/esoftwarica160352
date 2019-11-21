@@ -14,7 +14,7 @@
         android:layout_marginTop="4dp"
         android:gravity="center"
         android:text="Student Registration"
-        android:textColor="#D81B60"
+        android:textColor="#4461CA"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,7 +26,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="44dp"
         android:text="Name"
-        android:textColor="#D81B60"
+        android:textColor="#4461CA"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -37,7 +37,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="28dp"
         android:text="Gender"
-        android:textColor="#D81B60"
+        android:textColor="#4461CA"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -48,7 +48,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="32dp"
         android:text="Age"
-        android:textColor="#D81B60"
+        android:textColor="#4461CA"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
 
@@ -60,10 +60,12 @@
         android:layout_height="38dp"
         android:layout_marginStart="164dp"
         android:layout_marginTop="20dp"
-        android:background="#E91E63"
+        android:layout_marginBottom="393dp"
+        android:background="#4461CA"
         android:text="Submit"
         android:textColor="#FFFFFF"
         android:textColorLink="#00C73C3C"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -137,7 +139,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="36dp"
         android:text="Address"
-        android:textColor="#D81B60"
+        android:textColor="#4461CA"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
